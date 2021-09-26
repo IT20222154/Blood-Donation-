@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+
+
+        <TextView
+            android:id="@+id/hosID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="HospitalID"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/hosLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/hosID"
+            android:text="Location"
+            android:textColor="#000"
+            android:textSize="25dp"
+
+            />
+        <TextView
+            android:id="@+id/hosEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/hosLocation"
+            android:text="Email"
+            android:textColor="#000"
+            android:textSize="25dp"
+
+            />
+        <TextView
+            android:id="@+id/hosContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/hosEmail"
+            android:text="Contact No"
+            android:textColor="#000"
+            android:textSize="25dp"
+
+            />
+
+        <LinearLayout
+            android:layout_below="@+id/hosContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:background="@drawable/round_button"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/round_button"
+                android:text="Delete" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
