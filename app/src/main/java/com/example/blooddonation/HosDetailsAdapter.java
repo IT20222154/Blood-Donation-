@@ -93,7 +93,7 @@ public class HosDetailsAdapter extends FirebaseRecyclerAdapter<ModelHosDetails,H
                                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void unused) {
-                                        Toast.makeText(holder.hosID.getContext(), "Updated Successfully.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(holder.hosID.getContext(), "Updated Successfully..", Toast.LENGTH_SHORT).show();
                                         dialogPlus.dismiss();//close popup after updating
                                     }
                                 })
