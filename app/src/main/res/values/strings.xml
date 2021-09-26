@@ -1,10 +1,18 @@
 <resources>
-    <string name="app_name">BloodDonation</string>
+    <string name="app_name">.</string>
 
-    <string name="et_hosreg_hosname">Enter Name</string>
-    <string name="et_hosreg_hoslocation">Enter Location</string>
-    <string name="et_hosreg_contact">Enter Contact</string>
-    <string name="et_hosreg_email">Enter Email</string>
-    <string name="et_hosreg_hosid">Enter Hospital ID</string>
 
+    <string name="et_am_donoresId">Donor\'s ID</string>
+
+    <string name="et_am_donorsName">Donor\'s Name</string>
+
+    <string name="et_am_patientID">Patient\'s ID</string>
+
+    <string name="et_am_patientname">Patient\'s Name</string>
+
+    <string name="et_am_hospital">Hospital</string>
+
+    <string name="et_am_bType">Blood Type</string>
+
+    <string name="et_am_date">Date</string>
 </resources>
