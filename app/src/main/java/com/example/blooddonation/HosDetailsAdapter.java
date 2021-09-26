@@ -100,7 +100,7 @@ public class HosDetailsAdapter extends FirebaseRecyclerAdapter<ModelHosDetails,H
                                 .addOnFailureListener(new OnFailureListener() {
                                     @Override
                                     public void onFailure(@NonNull Exception e) {
-                                        Toast.makeText(holder.hosID.getContext(), "Error while Updating.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(holder.hosID.getContext(), "Error while Updating...", Toast.LENGTH_SHORT).show();
                                         dialogPlus.dismiss();
                                     }
                                 });
